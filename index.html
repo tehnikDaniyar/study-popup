@@ -15,7 +15,7 @@
 			<div class="header__container container">
 				<nav class="header__body">
 					<a href="#" class="header__logo"></a>
-					<a href="#popup" class="header__link">popup one</a>
+					<a href="#popup" class="header__link popup-link">popup one</a>
 				</nav>
 			</div>
 		</header>
@@ -41,7 +41,8 @@
 							</div>
 						</div>
 						<div class="top__img _ibg">
-							<a href="#" class="top__img-link"><img src="./img/IMG_20191221_203830.jpg" alt="Dayana"></a>
+							<a class="popup-link" href="#" class="top__img-link"><img src="./img/IMG_20191221_203830.jpg"
+									alt="Dayana"></a>
 						</div>
 					</div>
 				</div>
@@ -60,7 +61,8 @@
 							atque sint quae quas. Earum vel consequatur perferendis hic accusantium! Perspiciatis aliquam illum
 							natus, rem eveniet neque dolore. Alias, hic tenetur.</p>
 						<p class="paragraphs__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus
-							atque sint quae quas. Earum vel consequatur perferendis hic <a href="#">popup two</a>
+							atque sint quae quas. Earum vel consequatur perferendis hic <a class="popup-link" href="#">popup
+								two</a>
 							Perspiciatis aliquam illum natus, rem eveniet neque dolore. Alias, hic tenetur.</p>
 						<p class="paragraphs__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus
 							atque sint quae quas. Earum vel consequatur perferendis hic accusantium! Perspiciatis aliquam illum
@@ -86,12 +88,33 @@
 		</footer>
 	</div>
 	<div class="popup" id="popup">
-		<a class="popup__area" href="#header"></a>
 		<div class="popup__body">
 			<div class="popup__content">
-				<a href="#header" class="popup__close">X</a>
+				<a href="#header" class="popup__close close-popup">X</a>
 				<h3 class="popup__title">Popup One</h3>
-				<div class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia reprehenderit
+				<div class="popup__text"> <a class="popup-link" href="#popup_two">popup
+						two</a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia reprehenderit
+					maiores laborum assumenda repellendus ab unde ipsum odio modi aperiam iure accusamus labore saepe est
+					corrupti animi, veniam quas dolores?
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo dolorum suscipit non libero!
+					Eligendi accusantium neque blanditiis fugiat id aut nisi, doloribus quibusdam quaerat explicabo aliquam
+					reprehenderit quidem dolorem!
+					Ducimus id iure explicabo molestias quis, libero unde reiciendis laudantium in repudiandae, ut
+					consequatur. Eligendi dolore architecto nobis soluta quo incidunt perferendis aperiam, sint numquam ab
+					molestiae dolor atque consequuntur.
+					A distinctio nostrum veritatis officiis in ipsam incidunt labore atque aspernatur quisquam maiores,
+					soluta illum architecto? Suscipit laudantium adipisci, nulla beatae velit consequatur necessitatibus
+					similique dolores earum. Rerum, ex nobis?
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup" id="popup_two">
+		<div class="popup__body">
+			<div class="popup__content">
+				<a href="#header" class="popup__close close-popup">X</a>
+				<h3 class="popup__title">Popup One</h3>
+				<div class="popup__text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia reprehenderit
 					maiores laborum assumenda repellendus ab unde ipsum odio modi aperiam iure accusamus labore saepe est
 					corrupti animi, veniam quas dolores?
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo dolorum suscipit non libero!
